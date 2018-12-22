@@ -10,7 +10,7 @@ public class Test {
             tray.add(trayIcon);
             while (true){
                 trayIcon.displayMessage("Hi!","Today is a very beautiful day",TrayIcon.MessageType.NONE);
-                
+
                 //I want to display message every 3 hours
                 Thread.sleep(10800000 );
             }
