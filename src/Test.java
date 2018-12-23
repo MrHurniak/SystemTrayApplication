@@ -1,9 +1,13 @@
+import WeatherAPIWorker.WeatherWorker;
+
 import javax.swing.*;
 import java.awt.*;
 
 public class Test {
     public static void main(String[] args) throws AWTException, InterruptedException {
-        if(SystemTray.isSupported()){
+        WeatherWorker worker = new WeatherWorker();
+        worker.getInfo();
+        /*if(SystemTray.isSupported()){
             SystemTray tray = SystemTray.getSystemTray();
             Image image = new ImageIcon("world.png").getImage();
             TrayIcon trayIcon = new TrayIcon(image,"MyTest",createPopupMenu());
@@ -16,7 +20,7 @@ public class Test {
             }
         } else{
             JOptionPane.showMessageDialog(null,"Your system does not support System Tray");
-        }
+        }*/
     }
     static private PopupMenu createPopupMenu(){
         PopupMenu menu = new PopupMenu();
