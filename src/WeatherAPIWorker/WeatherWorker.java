@@ -51,8 +51,7 @@ public class WeatherWorker {
         }catch (MalformedURLException e) {
             e.printStackTrace();
             return new String("");
-        }
-        catch (IOException e){
+        }catch (IOException e){
             e.printStackTrace();
             return new String("");
         }

@@ -18,4 +18,24 @@ public class PropWorker {
             return new String();
         }
     }
+    public String getExitImage(){
+        properties = new Properties();
+        try(InputStream stream = new FileInputStream(fileName)){
+            properties.load(stream);
+            return properties.getProperty("imageExit");
+        }catch (IOException e){
+            e.printStackTrace();
+            return new String();
+        }
+    }
+    public String getSettingsImage(){
+        properties = new Properties();
+        try(InputStream stream = new FileInputStream(fileName)){
+            properties.load(stream);
+            return properties.getProperty("imageSettings");
+        }catch (IOException e){
+            e.printStackTrace();
+            return new String();
+        }
+    }
 }

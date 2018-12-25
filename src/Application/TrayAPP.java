@@ -4,10 +4,10 @@ import WeatherAPIWorker.WeatherWorker;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.Date;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class TrayAPP {
-    //todo In my OS some problems with tray icons!!!
     //todo make a normal exception catching
 
     private PropWorker propWorker;
@@ -28,6 +28,8 @@ public class TrayAPP {
             JOptionPane.showMessageDialog(null,"Your system does not support System Tray");
         }
     }
+
+    @Deprecated
     static private PopupMenu createPopupMenu(){
         PopupMenu menu = new PopupMenu();
         MenuItem exit = new MenuItem();
@@ -42,14 +44,86 @@ public class TrayAPP {
                         ()-> new SettingWindow()));
         return menu;
     }
+
+
+
     private TrayIcon createTrayIcon(){
+        JPopupMenu jPopup = createJPopup();
         Image image = new ImageIcon(propWorker.getTrayImage()).getImage();
-         trayIcon = new TrayIcon(image,"MyTest",createPopupMenu());
+         trayIcon = new TrayIcon(image,"MyTest"/*,createPopupMenu()*/);
         trayIcon.addActionListener(e -> System.out.println(e.getActionCommand()));
+
+        //Do like this, because I want to have JPopupMenu instead PopupMenu
+        trayIcon.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseReleased(MouseEvent e) {
+                if(e.isPopupTrigger()){
+                    jPopup.setLocation(e.getX(),e.getY());
+                    jPopup.setInvoker(jPopup);
+                    jPopup.setVisible(true);
+                }
+            }
+        });
         return trayIcon;
     }
+
+
     private void greeting(){
         //todo it would be better if app will make greeting according to day time
         trayIcon.displayMessage("Hello!",weatherWorker.getWeather(),TrayIcon.MessageType.NONE);
+    }
+
+    /**
+     * Create popup menu which will be shown when user
+     * pressed on right button
+     * @return JPopupMenu
+     */
+    private JPopupMenu createJPopup(){
+        JPopupMenu popupMenu = new JPopupMenu();
+
+        JMenuItem settings = new JMenuItem("Settings");
+        JMenuItem exit = new JMenuItem("Exit");
+
+        exit.addActionListener(e -> System.exit(0));
+        settings.addActionListener( e -> SwingUtilities.invokeLater(()-> new SettingWindow()));
+
+        settings.setIcon( new ImageIcon(propWorker.getSettingsImage()));
+        exit.setIcon(new ImageIcon(propWorker.getExitImage()));
+
+        popupMenu.add(settings);
+        popupMenu.addSeparator();
+        popupMenu.add(exit);
+
+        /*Crutch  that help to hide JPopupMenu, because
+        it hides only when user press on menu
+        otherwise it will stay on it`s place till user don`t choose one of the menu*/
+
+        popupMenu.addMouseListener(new MouseAdapter() {
+            boolean mouseStillOnMenu = false;
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                mouseStillOnMenu = true;
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+                mouseStillOnMenu = false;
+
+                new Thread(() -> {
+
+                    try {
+                        Thread.sleep(2_500);  //waits one second before checking if mouse is still on the menu
+                    } catch (InterruptedException e1) {
+                        e1.printStackTrace();
+                    }
+                    if (!mouseStillOnMenu) {
+                        popupMenu.setVisible(false);
+                    }
+
+                }).start();
+            }
+        });
+        return popupMenu;
+
     }
 }
