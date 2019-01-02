@@ -4,12 +4,15 @@ import WeatherAPIWorker.WeatherWorker;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.time.LocalTime;
+import java.util.concurrent.TimeUnit;
 
 public class TrayAPP {
     //todo make a normal exception catching
-
+    private int DELAY = 3;
     private PropWorker propWorker;
     private TrayIcon trayIcon;
     private WeatherWorker weatherWorker;
@@ -23,7 +26,7 @@ public class TrayAPP {
         if(SystemTray.isSupported()){
             SystemTray tray = SystemTray.getSystemTray();
             tray.add(createTrayIcon());
-            greeting();
+            startMessaging();
         } else{
             JOptionPane.showMessageDialog(null,"Your system does not support System Tray");
         }
@@ -51,7 +54,11 @@ public class TrayAPP {
         JPopupMenu jPopup = createJPopup();
         Image image = new ImageIcon(propWorker.getTrayImage()).getImage();
          trayIcon = new TrayIcon(image,"MyTest"/*,createPopupMenu()*/);
-        trayIcon.addActionListener(e -> System.out.println(e.getActionCommand()));
+        trayIcon.addActionListener(e -> {
+            System.out.println(e.getActionCommand());
+            weatherWorker.renew();
+            trayIcon.displayMessage(weatherWorker.getCity(),weatherWorker.getWeather(),TrayIcon.MessageType.NONE);
+        });
 
         //Do like this, because I want to have JPopupMenu instead PopupMenu
         trayIcon.addMouseListener(new MouseAdapter() {
@@ -68,11 +75,37 @@ public class TrayAPP {
     }
 
 
-    private void greeting(){
-        //todo it would be better if app will make greeting according to day time
-        trayIcon.displayMessage("Hello!",weatherWorker.getWeather(),TrayIcon.MessageType.NONE);
+
+    private void startMessaging(){
+        //todo it would be better if app will make startMessaging according to day time
+        weatherWorker.renew();
+        trayIcon.displayMessage(weatherWorker.getCity(),weatherWorker.getWeather(),TrayIcon.MessageType.NONE);
+
+        try {
+            Thread.sleep(milisToAction(DELAY));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        while(true){
+            weatherWorker.renew();
+            trayIcon.displayMessage(weatherWorker.getCity(),weatherWorker.getWeather(),TrayIcon.MessageType.NONE);
+            try {
+                Thread.sleep(DELAY);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
+    public long milisToAction(int hours){
+
+        if(hours>24 || hours <0){ throw new IllegalArgumentException("Hours between 0 and 24");}
+
+        LocalTime localTime = LocalTime.now();
+        int seconds = localTime.getSecond() + localTime.getMinute()*60 + localTime.getHour()*60*60;
+        int left = (hours*60*60)-seconds%(hours*60*60);
+        return TimeUnit.MILLISECONDS.convert(left,TimeUnit.SECONDS);
+    }
     /**
      * Create popup menu which will be shown when user
      * pressed on right button
@@ -126,4 +159,5 @@ public class TrayAPP {
         return popupMenu;
 
     }
+
 }

@@ -112,7 +112,12 @@ public class WeatherContainer {
     }
 
     private int cod;
-
+    public String shortFoCast(){
+        return weather.get(0).description+" "+Math.floor(main.temp-273.15);
+    }
+    public String getCountryCity(){
+        return sys.country+" "+name;
+    }
     @Override
     public String toString() {
         return "WeatherContainer{" +

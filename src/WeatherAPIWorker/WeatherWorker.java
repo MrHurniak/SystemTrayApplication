@@ -18,6 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class WeatherWorker {
+    private WeatherContainer weatherContainer = null;
     public void getImage(String urlString){
         //Погане рішення. Мені не подобається такий хід
         String ulrString;
@@ -34,6 +35,9 @@ public class WeatherWorker {
         }catch (IOException e){
             e.printStackTrace();
         }
+    }
+    public void renew(){
+        weatherContainer = container();
     }
 
     //Явно не дороблено
@@ -74,35 +78,12 @@ public class WeatherWorker {
         return new Gson().fromJson(getInfo(), WeatherContainer.class);
     }
     public String getWeather(){
-        return "Go OUT and look YOURSELF,\n stupid man!";
+        return weatherContainer.shortFoCast();
     }
-    /*try(InputStream in = new URL("https://openweathermap.org/img/w/10n.png").openStream()){
-            Files.copy(in, Paths.get("D://image.jpg"));
-        } catch (Exception e){
-            e.printStackTrace();
-        }*/
-        /*String API_KEY = "39efa5943b045418b826924c44f513ae";
-        String location = "Kiev,UA";
-        String urlString = "http://api.openweathermap.org/data/2.5/weather?q="+location+
-                "&mode=xml&appid="+API_KEY;
-        try{
-            StringBuilder result = new StringBuilder();
-            URL url = new URL(urlString);
-            URLConnection conn = url.openConnection();
-            BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-            String line;
-            while ((line=rd.readLine())!=null){
-                result.append(line);
-            }
-            System.out.println(result);
+    public String getCity(){
+        return weatherContainer.getCountryCity();
+    }
 
-
-        }catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-        catch (IOException e){
-            e.printStackTrace();
-        }*/
         public Map<String,Object> jsonToMap(String str){
             Map<String,Object> map = new Gson().fromJson(
                     str,new TypeToken<HashMap<String,Object>>(){}.getType()
