@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abbf28f8-de11-4481-bc1e-d476060801a6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/weather/WeatherContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/weather/WeatherContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TrayAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TrayAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weather/WeatherContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/WeatherContainer.java" afterDir="false" />
-    </list>
+    <list default="true" id="abbf28f8-de11-4481-bc1e-d476060801a6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +37,7 @@
       <file leaf-file-name="WeatherContainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/weather/WeatherContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="1139">
               <caret line="118" column="35" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
               <folding>
                 <element signature="e#646#647#0" expanded="true" />
@@ -55,20 +47,9 @@
                 <element signature="e#1879#1880#0" expanded="true" />
                 <element signature="e#1905#1906#0" expanded="true" />
                 <element signature="e#2025#2026#0" expanded="true" />
-                <element signature="e#2042#2101#0" expanded="true" />
-                <element signature="e#2042#2101#0" expanded="true" />
-                <element signature="e#2042#2101#0" expanded="true" />
-                <element signature="e#2073#2101#0" expanded="true" />
-                <element signature="e#2084#2100#0" expanded="true" />
-                <element signature="e#2073#2101#0" expanded="true" />
-                <element signature="e#2042#2101#0" expanded="true" />
                 <element signature="e#2107#2108#0" expanded="true" />
                 <element signature="e#2143#2144#0" expanded="true" />
-                <element signature="e#2160#2180#0" expanded="true" />
-                <element signature="e#2160#2180#0" expanded="true" />
-                <element signature="e#2160#2180#0" expanded="true" />
-                <element signature="e#2160#2180#0" expanded="true" />
-                <element signature="e#2167#2168#0" expanded="true" />
+                <element signature="e#2186#2187#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,16 +58,11 @@
       <file leaf-file-name="WeatherWorker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="1037">
               <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
               <folding>
-                <element signature="e#1183#1184#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#2903#2904#0" expanded="true" />
-                <element signature="e#2936#2937#0" expanded="true" />
                 <element signature="e#3110#3111#0" expanded="true" />
-                <element signature="e#3127#3160#0" expanded="true" />
-                <element signature="e#3165#3166#0" expanded="true" />
+                <element signature="e#3166#3167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,29 +80,8 @@
       <file leaf-file-name="TrayAPP.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Application/TrayAPP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="59" column="114" selection-start-line="59" selection-start-column="114" selection-end-line="59" selection-end-column="114" />
-              <folding>
-                <element signature="e#1856#1879#0" expanded="true" />
-                <element signature="e#2062#2391#0" expanded="true" />
-                <element signature="e#2390#2391#0" expanded="true" />
-                <element signature="e#2478#2501#0" expanded="true" />
-                <element signature="e#2766#2841#0" expanded="true" />
-                <element signature="e#2766#2841#0" expanded="true" />
-                <element signature="e#2798#2821#0" expanded="true" />
-                <element signature="e#2822#2848#0" expanded="true" />
-                <element signature="e#3082#3165#0" expanded="true" />
-                <element signature="e#3082#3165#0" expanded="true" />
-                <element signature="e#3029#3067#1" expanded="true" />
-                <element signature="e#3097#3188#1" expanded="true" />
-                <element signature="e#3111#3132#0" expanded="true" />
-                <element signature="e#3135#3156#0" expanded="true" />
-                <element signature="e#3417#3441#0" expanded="true" />
-                <element signature="e#3162#3181#0" expanded="true" />
-                <element signature="e#3197#3236#1" expanded="true" />
-                <element signature="e#3490#3525#0" expanded="true" />
-                <element signature="e#3490#3525#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -180,7 +135,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -191,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -239,7 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,7 +326,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26520000" />
+    <option name="totallyTimeSpent" value="26608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,20 +354,42 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27987897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.025931928" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32901135" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.26094005" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33387357" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27987897" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +409,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/Weater.java" />
     <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
@@ -736,6 +712,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+          <folding>
+            <element signature="e#3110#3111#0" expanded="true" />
+            <element signature="e#3166#3167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weather/WeatherContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="118" column="35" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+          <folding>
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1879#1880#0" expanded="true" />
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#2143#2144#0" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -747,52 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
-          <folding>
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#2903#2904#0" expanded="true" />
-            <element signature="e#2936#2937#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3127#3160#0" expanded="true" />
-            <element signature="e#3165#3166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weather/WeatherContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="118" column="35" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
-          <folding>
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-            <element signature="e#2025#2026#0" expanded="true" />
-            <element signature="e#2042#2101#0" expanded="true" />
-            <element signature="e#2042#2101#0" expanded="true" />
-            <element signature="e#2042#2101#0" expanded="true" />
-            <element signature="e#2073#2101#0" expanded="true" />
-            <element signature="e#2084#2100#0" expanded="true" />
-            <element signature="e#2073#2101#0" expanded="true" />
-            <element signature="e#2042#2101#0" expanded="true" />
-            <element signature="e#2107#2108#0" expanded="true" />
-            <element signature="e#2143#2144#0" expanded="true" />
-            <element signature="e#2160#2180#0" expanded="true" />
-            <element signature="e#2160#2180#0" expanded="true" />
-            <element signature="e#2160#2180#0" expanded="true" />
-            <element signature="e#2160#2180#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -800,31 +760,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/TrayAPP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="59" column="114" selection-start-line="59" selection-start-column="114" selection-end-line="59" selection-end-column="114" />
-          <folding>
-            <element signature="e#1856#1879#0" expanded="true" />
-            <element signature="e#2062#2391#0" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
-            <element signature="e#2478#2501#0" expanded="true" />
-            <element signature="e#2766#2841#0" expanded="true" />
-            <element signature="e#2766#2841#0" expanded="true" />
-            <element signature="e#2798#2821#0" expanded="true" />
-            <element signature="e#2822#2848#0" expanded="true" />
-            <element signature="e#3082#3165#0" expanded="true" />
-            <element signature="e#3082#3165#0" expanded="true" />
-            <element signature="e#3029#3067#1" expanded="true" />
-            <element signature="e#3097#3188#1" expanded="true" />
-            <element signature="e#3111#3132#0" expanded="true" />
-            <element signature="e#3135#3156#0" expanded="true" />
-            <element signature="e#3417#3441#0" expanded="true" />
-            <element signature="e#3162#3181#0" expanded="true" />
-            <element signature="e#3197#3236#1" expanded="true" />
-            <element signature="e#3490#3525#0" expanded="true" />
-            <element signature="e#3490#3525#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
