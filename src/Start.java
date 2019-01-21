@@ -1,4 +1,4 @@
-import Application.TrayAPP;
+import ApplicationPack.TrayAPP;
 
 /**
  * @author Andrii Hurniak

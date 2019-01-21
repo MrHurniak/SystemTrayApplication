@@ -1,11 +1,13 @@
-import Application.PropWorker;
-import WeatherAPIWorker.WeatherWorker;
-import weather.WeatherContainer;
 
-import java.util.Map;
+import ApplicationPack.FullInfoGUI.InfoWindow;
+
+import javax.swing.*;
 
 public class Test {
     public static void main(String[] args){
+        /*SwingUtilities.invokeLater(()->
+        new InfoWindow());*/
+        /*
         WeatherWorker worker = new WeatherWorker();
 
         System.out.println(worker.getInfo());

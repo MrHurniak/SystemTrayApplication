@@ -1,10 +1,10 @@
-package Application;
+package ApplicationPack;
 
+import ApplicationPack.FullInfoGUI.InfoWindow;
 import WeatherAPIWorker.WeatherWorker;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.time.LocalTime;
@@ -55,9 +55,9 @@ public class TrayAPP {
         Image image = new ImageIcon(propWorker.getTrayImage()).getImage();
          trayIcon = new TrayIcon(image,"MyTest"/*,createPopupMenu()*/);
         trayIcon.addActionListener(e -> {
-            System.out.println(e.getActionCommand());
-            weatherWorker.renew();
-            trayIcon.displayMessage(weatherWorker.getCity(),weatherWorker.getWeather(),TrayIcon.MessageType.NONE);
+            new InfoWindow(weatherWorker);
+            System.out.println("Action. Open full info window.");
+
         });
 
         //Do like this, because I want to have JPopupMenu instead PopupMenu
@@ -75,9 +75,8 @@ public class TrayAPP {
     }
 
 
-
+    //todo тут є якийсь баг, вроді пофіксив
     private void startMessaging(){
-        //todo it would be better if app will make startMessaging according to day time
         weatherWorker.renew();
         trayIcon.displayMessage(weatherWorker.getCity(),weatherWorker.getWeather(),TrayIcon.MessageType.NONE);
 
@@ -90,7 +89,7 @@ public class TrayAPP {
             weatherWorker.renew();
             trayIcon.displayMessage(weatherWorker.getCity(),weatherWorker.getWeather(),TrayIcon.MessageType.NONE);
             try {
-                Thread.sleep(DELAY);
+                Thread.sleep(TimeUnit.MILLISECONDS.convert(DELAY,TimeUnit.HOURS));
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

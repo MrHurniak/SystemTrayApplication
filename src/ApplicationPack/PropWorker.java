@@ -1,4 +1,4 @@
-package Application;
+package ApplicationPack;
 
 import java.io.*;
 import java.util.Properties;
@@ -15,7 +15,7 @@ public class PropWorker {
             return properties.getProperty("imageTray");
         }catch (IOException e){
             e.printStackTrace();
-            return new String();
+            return "";
         }
     }
     public String getExitImage(){
@@ -25,7 +25,7 @@ public class PropWorker {
             return properties.getProperty("imageExit");
         }catch (IOException e){
             e.printStackTrace();
-            return new String();
+            return "";
         }
     }
     public String getSettingsImage(){
@@ -35,7 +35,7 @@ public class PropWorker {
             return properties.getProperty("imageSettings");
         }catch (IOException e){
             e.printStackTrace();
-            return new String();
+            return "";
         }
     }
 }

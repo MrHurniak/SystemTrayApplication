@@ -1,9 +1,9 @@
-package Application;
+package ApplicationPack;
 
 import javax.swing.*;
 
 public class SettingWindow extends JFrame {
-    SettingWindow(){
+    public SettingWindow(){
         setSize(400,415);
         setVisible(true);
     }

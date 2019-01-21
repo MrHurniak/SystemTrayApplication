@@ -6,6 +6,7 @@ import com.google.gson.reflect.TypeToken;
 import weather.WeatherContainer;
 
 import javax.imageio.ImageIO;
+import javax.swing.*;
 import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,31 +17,31 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.HashMap;
 import java.util.Map;
+import weather.Weather;
 
 public class WeatherWorker {
     private WeatherContainer weatherContainer = null;
-    public void getImage(String urlString){
-        //Погане рішення. Мені не подобається такий хід
-        String ulrString;
-        Image image;
-        if(urlString.equals("")) {
-            ulrString = "https://openweathermap.org/img/w/10n.png";
-        }else
-            ulrString = urlString;
-        try(InputStream in = new URL(ulrString).openStream()){
-            image = ImageIO.read(in);
-            //todo зробити можливість переглянути картинку в GUI
+
+
+    public ImageIcon getImage(){
+        //todo uncomment when end
+        /*String ima = weatherContainer.getWeather().get(0).getIcon();
+        try(InputStream in = new URL("https://openweathermap.org/img/w/"+ima+".png").openStream()){
+
+            return new ImageIcon(ImageIO.read(in));
         }catch (MalformedURLException e){
             e.printStackTrace();
         }catch (IOException e){
             e.printStackTrace();
-        }
+        }*/
+        return new ImageIcon("src\\Icons\\not-found.png");
     }
     public void renew(){
         weatherContainer = container();
     }
 
     //Явно не дороблено
+    //todo заглушка
     public String getInfo(){
         return "{\"coord\":{\"lon\":30.52,\"lat\":50.43},\"weather\":[{\"id\":600,\"main\":\"Snow\",\"description\":" +
                 "\"light snow\",\"icon\":\"13n\"}],\"base\":\"stations\",\"main\":{\"temp\":269.15,\"pressure\":1013," +
@@ -80,14 +81,18 @@ public class WeatherWorker {
     public String getWeather(){
         return weatherContainer.shortFoCast();
     }
+    public String getFullWeather() {return weatherContainer.getFullFoCast();}
     public String getCity(){
         return weatherContainer.getCountryCity();
     }
+    public String getFullCity(){return "Kiev,Ukraine";}
 
-        public Map<String,Object> jsonToMap(String str){
-            Map<String,Object> map = new Gson().fromJson(
-                    str,new TypeToken<HashMap<String,Object>>(){}.getType()
-            );
-            return map;
-        }
+    public Map<String,Object> jsonToMap(String str){
+        Map<String,Object> map = new Gson().fromJson(
+                str,new TypeToken<HashMap<String,Object>>(){}.getType()
+        );
+        return map;
+    }
+
+
 }

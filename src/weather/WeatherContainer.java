@@ -115,6 +115,22 @@ public class WeatherContainer {
     public String shortFoCast(){
         return weather.get(0).description+" "+Math.floor(main.temp-273.15);
     }
+    //todo String is bed for memory. Use Builder
+    public String getFullFoCast(){
+        String res = "";
+        for(Weather elem :weather){
+            res+=elem.description+"\n";
+        }
+        res += "Pressure : " + main.pressure + "\n";
+        res += "Humidity : " + main.humidity + "\n";
+        res += "Visibility : " + visibility + "\n";
+        res += "Wind: speed = " + wind.speed + ", deg = " + wind.deg + "\n";
+        res += "Clouds " + clouds.all + "\n";
+        res += "Sunrise " + sys.sunrise + "\n";
+        res += "Sunset " + sys.sunset ;
+
+        return res;
+    }
     public String getCountryCity(){
         return sys.country+" "+name;
     }
