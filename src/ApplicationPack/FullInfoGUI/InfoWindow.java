@@ -1,7 +1,7 @@
 package ApplicationPack.FullInfoGUI;
 
 import ApplicationPack.PropWorker;
-import ApplicationPack.SettingWindow;
+import ApplicationPack.Settings.SettingWindow;
 import WeatherAPIWorker.WeatherWorker;
 
 import javax.swing.*;
