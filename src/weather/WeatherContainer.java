@@ -1,5 +1,6 @@
 package weather;
 
+import java.util.Date;
 import java.util.List;
 
 public class WeatherContainer {
@@ -7,7 +8,7 @@ public class WeatherContainer {
     private List<Weather> weather;
     private String base;        //station
     private MainInfo main;
-    private int visibility;
+    private double visibility;
     private Wind wind;
     private Clouds clouds;
     private long dt;
@@ -47,11 +48,11 @@ public class WeatherContainer {
         this.main = main;
     }
 
-    public int getVisibility() {
+    public double getVisibility() {
         return visibility;
     }
 
-    public void setVisibility(int visibility) {
+    public void setVisibility(double visibility) {
         this.visibility = visibility;
     }
 
@@ -126,8 +127,6 @@ public class WeatherContainer {
         res += "Visibility : " + visibility + "\n";
         res += "Wind: speed = " + wind.speed + ", deg = " + wind.deg + "\n";
         res += "Clouds " + clouds.all + "\n";
-        res += "Sunrise " + sys.sunrise + "\n";
-        res += "Sunset " + sys.sunset ;
 
         return res;
     }

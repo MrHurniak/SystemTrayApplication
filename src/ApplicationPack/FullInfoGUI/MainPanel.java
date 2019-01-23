@@ -12,9 +12,9 @@ public class MainPanel extends JPanel {
     private JLabel temAndIcon;
     private JTextArea detailInfo;
 
-    public MainPanel(WeatherWorker worker){
+    public MainPanel(){
 
-        this.worker = worker;
+        this.worker = WeatherWorker.getInstance();
         setBackground(Color.WHITE);
 
         //Configure and set city name and country
@@ -25,7 +25,7 @@ public class MainPanel extends JPanel {
         add(city);
 
         //Configure and set temperature and appropriate icon
-        temAndIcon = new JLabel((int)(worker.container().getMain().getTemp()-273.15)+"");
+        temAndIcon = new JLabel((int)(worker.getWeatherContainer().getMain().getTemp()-273.15)+"");
         temAndIcon.setIcon(worker.getImage());
         temAndIcon.setForeground(Color.red);
         temAndIcon.setFont(new Font("TimesRoman", Font.PLAIN, 25));
@@ -39,9 +39,15 @@ public class MainPanel extends JPanel {
         detailInfo.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
         JScrollPane pane = new JScrollPane(detailInfo);
         pane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
-        pane.setPreferredSize(new Dimension(250,120));
-        pane.setMaximumSize(new Dimension(250,120));
+        pane.setPreferredSize(new Dimension(250,145));
+        pane.setMaximumSize(new Dimension(250,145));
         add(pane);
     }
 
+    public void reload() {
+        city.setText(worker.getFullCity());
+        temAndIcon.setText((int)(worker.getWeatherContainer().getMain().getTemp()-273.15)+"");
+        temAndIcon.setIcon(worker.getImage());
+        detailInfo.setText(worker.getFullWeather());
+    }
 }

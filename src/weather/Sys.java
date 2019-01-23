@@ -5,18 +5,11 @@ public class Sys {
     int id;
     double message;
     String country;
+
+    public String getCountry() {
+        return country;
+    }
+
     long sunrise;
     long sunset;
-
-    @Override
-    public String toString() {
-        return "Sys{" +
-                "type=" + type +
-                ", id=" + id +
-                ", message=" + message +
-                ", country='" + country + '\'' +
-                ", sunrise=" + sunrise +
-                ", sunset=" + sunset +
-                '}';
-    }
 }

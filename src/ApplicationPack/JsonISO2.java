@@ -36,7 +36,7 @@ public class JsonISO2  {
             counter++;
 
         }
-        System.out.println(counter + "elements of "+key+" in file "+ jsonFile);
+        System.out.println(counter + " elements of "+key+" in file "+ jsonFile);
         return list.toArray(new String[counter]);
     }
 

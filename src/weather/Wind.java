@@ -1,8 +1,8 @@
 package weather;
 
 public class Wind {
-    int speed;
-    int deg;
+    double speed;
+    double deg;
 
     @Override
     public String toString() {

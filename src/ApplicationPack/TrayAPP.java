@@ -20,7 +20,7 @@ public class TrayAPP {
 
     public TrayAPP() {
         this.propWorker = new PropWorker();
-        this.weatherWorker = new WeatherWorker();
+        this.weatherWorker = WeatherWorker.getInstance();
     }
 
     public void start()throws Exception{
@@ -56,7 +56,7 @@ public class TrayAPP {
         Image image = new ImageIcon(propWorker.getTrayImage()).getImage();
          trayIcon = new TrayIcon(image,"MyTest"/*,createPopupMenu()*/);
         trayIcon.addActionListener(e -> {
-            new InfoWindow(weatherWorker);
+            new InfoWindow();
             System.out.println("Action. Open full info window.");
 
         });
@@ -82,7 +82,7 @@ public class TrayAPP {
         trayIcon.displayMessage(weatherWorker.getCity(),weatherWorker.getWeather(),TrayIcon.MessageType.NONE);
 
         try {
-            Thread.sleep(milisToAction(DELAY));
+            Thread.sleep(millisToAction(DELAY));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -97,7 +97,7 @@ public class TrayAPP {
         }
     }
 
-    public long milisToAction(int hours){
+    public long millisToAction(int hours){
 
         if(hours>24 || hours <0){ throw new IllegalArgumentException("Hours between 0 and 24");}
 

@@ -3,7 +3,7 @@ package ApplicationPack;
 import java.io.*;
 import java.util.Properties;
 
-public class PropWorker {
+public  class PropWorker {
 
     private String fileName = "src\\Files\\App.properties";
     private Properties properties;
@@ -31,9 +31,12 @@ public class PropWorker {
         }
         setProperti("country",value);
     }
+
     public void setCity(String value){
         setProperti("city",value);
     }
+
+
     public String getProperti(String key){
         properties = new Properties();
         try(InputStream stream = new FileInputStream(fileName)){
@@ -46,7 +49,8 @@ public class PropWorker {
             properties = null;
         }
     }
-    public void setProperti(String key,String value){
+
+    public void setProperti(String key, String value){
         properties = new Properties();
         try(InputStream in = new FileInputStream(fileName)){
             properties.load(in);

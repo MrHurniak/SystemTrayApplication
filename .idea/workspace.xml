@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SystemTrayApplication:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="abbf28f8-de11-4481-bc1e-d476060801a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/App.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/FullInfoGUI/InfoWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/FullInfoGUI/InfoWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/PropWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/PropWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/SettingWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/TrayAPP$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/TrayAPP$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/TrayAPP$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/TrayAPP$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/TrayAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/TrayAPP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/Prop/App.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/FullInfoGUI/MainPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/FullInfoGUI/MainPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/Settings/SettingPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/Settings/SettingPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/Settings/SettingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/Settings/SettingWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/Files/App.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/Files/App.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/InfoWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/InfoWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApplicationPack/PropWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/PropWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationPack/SettingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApplicationPack/TrayAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/TrayAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prop/App.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Files/App.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files/App.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weather/Clouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/Clouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weather/MainInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/MainInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weather/Sys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/Sys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weather/WeatherContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/WeatherContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weather/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/Wind.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,195 +41,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#502#525#1" expanded="true" />
-                <element signature="e#565#593#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slim-2.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Files/slim-2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/InfoWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="78" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropWorker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationPack/PropWorker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-              <folding>
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/MainPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#505#558#0" expanded="true" />
-                <element signature="e#505#558#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingPanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SettingPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+            <state relative-caret-position="-61">
+              <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#829#858#0" expanded="true" />
-                <element signature="e#829#858#0" expanded="true" />
-                <element signature="e#868#924#0" expanded="true" />
-                <element signature="e#860#888#0" expanded="true" />
-                <element signature="e#868#924#0" expanded="true" />
-                <element signature="e#934#984#0" expanded="true" />
-                <element signature="e#934#984#0" expanded="true" />
-                <element signature="e#1575#1649#1" expanded="true" />
-                <element signature="e#1676#1708#1" expanded="true" />
-                <element signature="e#1694#1703#0" expanded="true" />
-                <element signature="e#1717#1757#1" expanded="true" />
-                <element signature="e#1736#1757#0" expanded="true" />
-                <element signature="e#1767#1827#1" expanded="true" />
-                <element signature="e#1806#1843#0" expanded="true" />
-                <element signature="e#1786#1814#0" expanded="true" />
-                <element signature="e#1881#1912#0" expanded="true" />
-                <element signature="e#1881#1912#0" expanded="true" />
-                <element signature="e#1881#1912#0" expanded="true" />
-                <element signature="e#2039#2081#0" expanded="true" />
-                <element signature="e#2039#2081#0" expanded="true" />
-                <element signature="e#2014#2031#0" expanded="true" />
-                <element signature="e#2039#2081#0" expanded="true" />
+                <element signature="e#1294#1320#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Start.java">
+      <file leaf-file-name="WeatherWorker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="520">
+              <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#314#382#0" expanded="true" />
-                <element signature="e#314#382#0" expanded="true" />
-                <element signature="e#505#547#0" expanded="true" />
-                <element signature="e#505#547#0" expanded="true" />
+                <element signature="e#3293#3294#0" expanded="true" />
+                <element signature="e#3370#3371#0" expanded="true" />
+                <marker date="1548266571730" expanded="true" signature="1296:1340" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonISO2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#81#106#0" expanded="true" />
-                <element signature="e#278#311#1" expanded="true" />
-                <element signature="e#308#327#0" expanded="true" />
-                <element signature="e#341#370#1" expanded="true" />
-                <element signature="e#556#595#0" expanded="true" />
-                <element signature="e#556#595#0" expanded="true" />
-                <element signature="e#452#456#0" expanded="true" />
-                <element signature="e#556#595#0" expanded="true" />
-                <element signature="e#530#554#0" expanded="true" />
-                <element signature="e#704#780#0" expanded="true" />
-                <element signature="e#704#780#0" expanded="true" />
-                <element signature="e#781#847#0" expanded="true" />
-                <element signature="e#781#847#0" expanded="true" />
-                <element signature="e#1105#1146#1" expanded="true" />
-                <element signature="e#1153#1170#0" expanded="true" />
-                <element signature="e#1179#1225#1" expanded="true" />
-                <element signature="e#1235#1251#1" expanded="true" />
-                <element signature="e#1093#1237#0" expanded="true" />
-                <element signature="e#1093#1237#0" expanded="true" />
-                <element signature="e#1142#1202#0" expanded="true" />
-                <element signature="e#1318#1368#0" expanded="true" />
-                <element signature="e#1142#1202#0" expanded="true" />
-                <element signature="e#1265#1315#0" expanded="true" />
-                <element signature="e#1265#1315#0" expanded="true" />
-                <element signature="e#1265#1315#0" expanded="true" />
-                <element signature="e#1265#1315#0" expanded="true" />
-                <element signature="e#1265#1315#0" expanded="true" />
-                <element signature="e#1265#1315#0" expanded="true" />
-                <element signature="e#1588#1643#1" expanded="true" />
-                <element signature="e#1608#1641#0" expanded="true" />
-                <element signature="e#2039#2040#0" expanded="true" />
-                <element signature="e#2101#2102#0" expanded="true" />
-                <element signature="e#2607#2655#1" expanded="true" />
-                <element signature="e#2693#2722#1" expanded="true" />
-                <element signature="e#2739#2747#1" expanded="true" />
-                <element signature="e#1910#2128#0" expanded="true" />
-                <element signature="e#1910#2128#0" expanded="true" />
-                <element signature="e#1910#2128#0" expanded="true" />
-                <element signature="e#1953#2012#0" expanded="true" />
-                <element signature="e#1953#2012#0" expanded="true" />
-                <element signature="e#2833#2874#0" expanded="true" />
-                <element signature="e#2140#2208#0" expanded="true" />
-                <element signature="e#2140#2208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Files/App.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -254,30 +106,30 @@
         <option value="$PROJECT_DIR$/src/Application/SettingWindow.java" />
         <option value="$PROJECT_DIR$/src/Application/PropWorker.java" />
         <option value="$PROJECT_DIR$/src/weather/Coordination.java" />
-        <option value="$PROJECT_DIR$/src/weather/Wind.java" />
-        <option value="$PROJECT_DIR$/src/weather/Clouds.java" />
-        <option value="$PROJECT_DIR$/src/weather/Sys.java" />
         <option value="$PROJECT_DIR$/src/Application/TrayAPP.java" />
         <option value="$PROJECT_DIR$/src/Application/DetailsWindow.form" />
         <option value="$PROJECT_DIR$/src/Application/DetailWindow.java" />
         <option value="$PROJECT_DIR$/src/ApplicationPack/DetailWindow.java" />
         <option value="$PROJECT_DIR$/src/ApplicationPack/SettingWindow.java" />
         <option value="$PROJECT_DIR$/src/ApplicationPack/InfoWindowFX.java" />
-        <option value="$PROJECT_DIR$/src/weather/WeatherContainer.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/InfoWindow.java" />
         <option value="$PROJECT_DIR$/src/weather/Weather.java" />
-        <option value="$PROJECT_DIR$/src/weather/MainInfo.java" />
-        <option value="$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/MainPanel.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationPack/TrayAPP.java" />
         <option value="$PROJECT_DIR$/src/Prop/App.properties" />
-        <option value="$PROJECT_DIR$/src/ApplicationPack/PropWorker.java" />
         <option value="$PROJECT_DIR$/src/Files/slim-2.json" />
         <option value="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java" />
         <option value="$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationPack/PropWorker.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/InfoWindow.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationPack/TrayAPP.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/MainPanel.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Files/App.properties" />
+        <option value="$PROJECT_DIR$/src/weather/MainInfo.java" />
+        <option value="$PROJECT_DIR$/src/weather/Wind.java" />
+        <option value="$PROJECT_DIR$/src/weather/Clouds.java" />
+        <option value="$PROJECT_DIR$/src/weather/Sys.java" />
+        <option value="$PROJECT_DIR$/src/weather/WeatherContainer.java" />
+        <option value="$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java" />
       </list>
     </option>
   </component>
@@ -301,9 +153,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,6 +209,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,7 +218,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/org.json.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -389,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Start">
     <configuration name="DetailWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ApplicationPack.DetailWindow" />
       <module name="SystemTrayApplication" />
@@ -459,8 +311,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Start" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.DetailWindow" />
       </list>
     </recent_temporary>
@@ -491,6 +343,7 @@
       <workItem from="1548013848182" duration="3097000" />
       <workItem from="1548069457261" duration="17928000" />
       <workItem from="1548161199849" duration="9480000" />
+      <workItem from="1548246154453" duration="12916000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1545171631548</created>
@@ -510,7 +363,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65240000" />
+    <option name="totallyTimeSpent" value="78156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,24 +387,24 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32901135" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.25121555" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.30794165" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1580938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1603631" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +420,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -685,34 +538,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/Weater.java" />
-    <entry file="file://$PROJECT_DIR$/src/weather/Wind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weather/Clouds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weather/Sys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weather/Coordination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.desktop/javax/swing/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -777,35 +602,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/weather/Weather.java">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="386" column="16" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/JsonISO2.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/JComboBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3024">
+          <caret line="193" column="11" selection-start-line="193" selection-start-column="11" selection-end-line="193" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Files/slim-2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/PropWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#135#163#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#1481#1557#0" expanded="true" />
+            <element signature="e#1481#1557#0" expanded="true" />
+            <element signature="e#1558#1624#0" expanded="true" />
+            <element signature="e#1558#1624#0" expanded="true" />
+            <element signature="e#1782#1858#0" expanded="true" />
+            <element signature="e#1782#1858#0" expanded="true" />
+            <element signature="e#1859#1925#0" expanded="true" />
+            <element signature="e#1859#1925#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/InfoWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/MainPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#333#360#0" expanded="true" />
+            <element signature="e#475#495#0" expanded="true" />
+            <element signature="e#788#853#0" expanded="true" />
+            <element signature="e#788#850#0" expanded="true" />
+            <element signature="e#794#822#0" expanded="true" />
+            <element signature="e#822#843#0" expanded="true" />
+            <element signature="e#822#853#0" expanded="true" />
+            <element signature="e#794#849#0" expanded="true" />
+            <element signature="e#788#850#0" expanded="true" />
+            <element signature="e#788#853#0" expanded="true" />
+            <element signature="e#1652#1686#0" expanded="true" />
+            <element signature="e#1652#1686#0" expanded="true" />
+            <element signature="e#1696#1781#0" expanded="true" />
+            <element signature="e#1715#1780#0" expanded="true" />
+            <element signature="e#1715#1777#0" expanded="true" />
+            <element signature="e#1747#1775#0" expanded="true" />
+            <element signature="e#1737#1765#0" expanded="true" />
+            <element signature="e#1737#1775#0" expanded="true" />
+            <element signature="e#1721#1776#0" expanded="true" />
+            <element signature="e#1715#1777#0" expanded="true" />
+            <element signature="e#1715#1780#0" expanded="true" />
+            <element signature="e#1696#1781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/TrayAPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="91" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="91" />
+          <folding>
+            <element signature="e#636#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#524#539#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weather/Clouds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weather/Coordination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/weather/MainInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="442">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding>
+            <element signature="e#473#474#0" expanded="true" />
             <element signature="e#500#501#0" expanded="true" />
             <element signature="e#540#541#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
@@ -829,11 +794,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/weather/Sys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weather/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/weather/WeatherContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="160">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#563#564#0" expanded="true" />
             <element signature="e#593#594#0" expanded="true" />
             <element signature="e#646#647#0" expanded="true" />
@@ -844,226 +845,47 @@
             <element signature="e#1905#1906#0" expanded="true" />
             <element signature="e#2025#2026#0" expanded="true" />
             <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#2294#2315#0" expanded="true" />
+            <element signature="e#2294#2315#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1548079060199" expanded="true" signature="1004:1048" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/TrayAPP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/InfoWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="78" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/JFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="386" column="16" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/JsonISO2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#314#382#0" expanded="true" />
-            <element signature="e#314#382#0" expanded="true" />
-            <element signature="e#505#547#0" expanded="true" />
-            <element signature="e#505#547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/JComboBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3024">
-          <caret line="193" column="11" selection-start-line="193" selection-start-column="11" selection-end-line="193" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/PropWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/MainPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#505#558#0" expanded="true" />
-            <element signature="e#505#558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Files/slim-2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#81#106#0" expanded="true" />
-            <element signature="e#278#311#1" expanded="true" />
-            <element signature="e#308#327#0" expanded="true" />
-            <element signature="e#341#370#1" expanded="true" />
-            <element signature="e#556#595#0" expanded="true" />
-            <element signature="e#556#595#0" expanded="true" />
-            <element signature="e#452#456#0" expanded="true" />
-            <element signature="e#556#595#0" expanded="true" />
-            <element signature="e#530#554#0" expanded="true" />
-            <element signature="e#704#780#0" expanded="true" />
-            <element signature="e#704#780#0" expanded="true" />
-            <element signature="e#781#847#0" expanded="true" />
-            <element signature="e#781#847#0" expanded="true" />
-            <element signature="e#1105#1146#1" expanded="true" />
-            <element signature="e#1153#1170#0" expanded="true" />
-            <element signature="e#1179#1225#1" expanded="true" />
-            <element signature="e#1235#1251#1" expanded="true" />
-            <element signature="e#1093#1237#0" expanded="true" />
-            <element signature="e#1093#1237#0" expanded="true" />
-            <element signature="e#1142#1202#0" expanded="true" />
-            <element signature="e#1318#1368#0" expanded="true" />
-            <element signature="e#1142#1202#0" expanded="true" />
-            <element signature="e#1265#1315#0" expanded="true" />
-            <element signature="e#1265#1315#0" expanded="true" />
-            <element signature="e#1265#1315#0" expanded="true" />
-            <element signature="e#1265#1315#0" expanded="true" />
-            <element signature="e#1265#1315#0" expanded="true" />
-            <element signature="e#1265#1315#0" expanded="true" />
-            <element signature="e#1588#1643#1" expanded="true" />
-            <element signature="e#1608#1641#0" expanded="true" />
-            <element signature="e#2039#2040#0" expanded="true" />
-            <element signature="e#2101#2102#0" expanded="true" />
-            <element signature="e#2607#2655#1" expanded="true" />
-            <element signature="e#2693#2722#1" expanded="true" />
-            <element signature="e#2739#2747#1" expanded="true" />
-            <element signature="e#1910#2128#0" expanded="true" />
-            <element signature="e#1910#2128#0" expanded="true" />
-            <element signature="e#1910#2128#0" expanded="true" />
-            <element signature="e#1953#2012#0" expanded="true" />
-            <element signature="e#1953#2012#0" expanded="true" />
-            <element signature="e#2833#2874#0" expanded="true" />
-            <element signature="e#2140#2208#0" expanded="true" />
-            <element signature="e#2140#2208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#502#525#1" expanded="true" />
-            <element signature="e#565#593#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Files/App.properties">
+    <entry file="file://$PROJECT_DIR$/src/weather/Wind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        <state relative-caret-position="520">
+          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#829#858#0" expanded="true" />
-            <element signature="e#829#858#0" expanded="true" />
-            <element signature="e#868#924#0" expanded="true" />
-            <element signature="e#860#888#0" expanded="true" />
-            <element signature="e#868#924#0" expanded="true" />
-            <element signature="e#934#984#0" expanded="true" />
-            <element signature="e#934#984#0" expanded="true" />
-            <element signature="e#1575#1649#1" expanded="true" />
-            <element signature="e#1676#1708#1" expanded="true" />
-            <element signature="e#1694#1703#0" expanded="true" />
-            <element signature="e#1717#1757#1" expanded="true" />
-            <element signature="e#1736#1757#0" expanded="true" />
-            <element signature="e#1767#1827#1" expanded="true" />
-            <element signature="e#1806#1843#0" expanded="true" />
-            <element signature="e#1786#1814#0" expanded="true" />
-            <element signature="e#1881#1912#0" expanded="true" />
-            <element signature="e#1881#1912#0" expanded="true" />
-            <element signature="e#1881#1912#0" expanded="true" />
-            <element signature="e#2039#2081#0" expanded="true" />
-            <element signature="e#2039#2081#0" expanded="true" />
-            <element signature="e#2014#2031#0" expanded="true" />
-            <element signature="e#2039#2081#0" expanded="true" />
+            <element signature="e#3293#3294#0" expanded="true" />
+            <element signature="e#3370#3371#0" expanded="true" />
+            <marker date="1548266571730" expanded="true" signature="1296:1340" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1294#1320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Files/App.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1073,6 +895,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>SystemTrayApplication:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

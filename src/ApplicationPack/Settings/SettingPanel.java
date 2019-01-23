@@ -2,6 +2,7 @@ package ApplicationPack.Settings;
 
 import ApplicationPack.JsonISO2;
 import ApplicationPack.PropWorker;
+import WeatherAPIWorker.WeatherWorker;
 import org.json.JSONException;
 
 import javax.swing.*;
@@ -35,7 +36,7 @@ public class SettingPanel extends JPanel {
         add(lb_city);
 
         tf_city = new JTextField();
-        tf_city.setText("Kiev");
+        tf_city.setText(new PropWorker().getCity());
         tf_city.setPreferredSize(new Dimension(140,40));
         add(tf_city);
 
@@ -44,20 +45,27 @@ public class SettingPanel extends JPanel {
 //        btn_save.setPreferredSize(new Dimension());
         add(btn_save);
     }
+    //todo save values even they are false
     void btnSaveListener(ActionEvent e){
         PropWorker prop = new PropWorker();
         System.out.println("SettingPanel.Save button.");
         String oldCity = prop.getCity();
         String oldCounty = prop.getCountryISO2();
-        String newCoutryISO = jsonISO2.getISO2((String) cb_country.getSelectedItem());
+        String newCountryISO = jsonISO2.getISO2((String) cb_country.getSelectedItem());
         String newCity;
-        if(!oldCounty.equals(newCoutryISO)){
-            prop.setProperti("country",newCoutryISO);
+        boolean mark = false;
+        if(!oldCounty.equals(newCountryISO)){
+            prop.setCountryISO2(newCountryISO);
+            mark=true;
             System.out.println("Different ISO");
         }
         if(!oldCity.equals(newCity=tf_city.getText())){
-            prop.setProperti("city",newCity);
+            mark=true;
+            prop.setCity(newCity);
             System.out.println("Different city");
+        }
+        if(mark){
+            WeatherWorker.getInstance().renew();
         }
     }
 }

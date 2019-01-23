@@ -1,7 +1,7 @@
 package weather;
 
 public class Clouds {
-    int all;
+    double all;
 
     @Override
     public String toString() {

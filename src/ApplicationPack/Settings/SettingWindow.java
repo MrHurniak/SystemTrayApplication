@@ -7,7 +7,7 @@ import javax.swing.*;
 
 public class SettingWindow extends JFrame {
     public SettingWindow(){
-        setSize(300,320);
+        setSize(300,160);
         setTitle("Settings");
         try {
             add(new SettingPanel());
