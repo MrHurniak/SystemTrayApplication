@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JsonISO2  {
-    private String jsonFile = "src\\Files\\slim-2.json";
+    private String jsonFile = "D:\\GitRep\\SystemTrayApplication\\src\\Files\\slim-2.json";
     public String loadFile(){
         try(BufferedReader buf = new BufferedReader(new InputStreamReader(new FileInputStream(jsonFile)))) {
             StringBuilder stringBuilder = new StringBuilder();

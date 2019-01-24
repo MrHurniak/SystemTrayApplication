@@ -7,29 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abbf28f8-de11-4481-bc1e-d476060801a6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SystemTrayApplication_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/FullInfoGUI/InfoWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/FullInfoGUI/InfoWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/FullInfoGUI/MainPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/FullInfoGUI/MainPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/Settings/SettingPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/Settings/SettingPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/Settings/SettingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/Settings/SettingWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/PropWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/ApplicationPack/PropWorker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/Files/App.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/Files/App.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/InfoWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/InfoWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SystemTrayApplication/WeatherAPIWorker/WeatherWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SystemTrayApplication/WeatherAPIWorker/WeatherWorker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApplicationPack/PropWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/PropWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationPack/TrayAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPack/TrayAPP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Files/App.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files/App.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weather/Clouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/Clouds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weather/MainInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/MainInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weather/Sys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/Sys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weather/WeatherContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/WeatherContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weather/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weather/Wind.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,12 +32,32 @@
       <file leaf-file-name="SettingPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
-              <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            <state relative-caret-position="126">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1294#1320#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonISO2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-213">
+              <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Files/App.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -57,23 +65,65 @@
       <file leaf-file-name="WeatherWorker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+            <state relative-caret-position="158">
+              <caret line="101" column="38" lean-forward="true" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3293#3294#0" expanded="true" />
-                <element signature="e#3370#3371#0" expanded="true" />
-                <marker date="1548266571730" expanded="true" signature="1296:1340" ph="{...}" />
+                <element signature="e#977#1037#1" expanded="true" />
+                <element signature="e#990#1019#0" expanded="true" />
+                <element signature="e#990#1036#0" expanded="true" />
+                <element signature="e#1075#1121#0" expanded="true" />
+                <element signature="e#1075#1121#0" expanded="true" />
+                <element signature="e#1370#1397#0" expanded="true" />
+                <element signature="e#2231#2283#1" expanded="true" />
+                <element signature="e#2292#2363#1" expanded="true" />
+                <element signature="e#2310#2362#0" expanded="true" />
+                <element signature="e#2310#2330#0" expanded="true" />
+                <element signature="e#2310#2362#0" expanded="true" />
+                <element signature="e#2310#2362#0" expanded="true" />
+                <element signature="e#2335#2362#0" expanded="true" />
+                <element signature="e#2310#2362#0" expanded="true" />
+                <element signature="e#2392#2507#1" expanded="true" />
+                <element signature="e#2391#2486#0" expanded="true" />
+                <element signature="e#2391#2486#0" expanded="true" />
+                <element signature="e#2391#2486#0" expanded="true" />
+                <element signature="e#2391#2486#0" expanded="true" />
+                <element signature="e#2513#2556#1" expanded="true" />
+                <element signature="e#2536#2555#0" expanded="true" />
+                <element signature="e#2569#2598#1" expanded="true" />
+                <element signature="e#2611#2653#1" expanded="true" />
+                <element signature="e#2666#2751#1" expanded="true" />
+                <element signature="e#2727#2748#0" expanded="true" />
+                <element signature="e#2841#2860#0" expanded="true" />
+                <element signature="e#2841#2860#0" expanded="true" />
+                <element signature="e#2935#2952#0" expanded="true" />
+                <element signature="e#2965#3064#0" expanded="true" />
+                <element signature="e#2965#3064#0" expanded="true" />
+                <element signature="e#3167#3215#0" expanded="true" />
+                <element signature="e#3167#3215#0" expanded="true" />
+                <element signature="e#3342#3351#0" expanded="true" />
+                <element signature="e#3602#3634#0" expanded="true" />
+                <element signature="e#3755#3825#0" expanded="true" />
+                <element signature="e#3761#3787#0" expanded="true" />
+                <element signature="e#3755#3825#0" expanded="true" />
+                <element signature="e#3755#3825#0" expanded="true" />
+                <element signature="e#3793#3818#0" expanded="true" />
+                <element signature="e#3793#3831#0" expanded="true" />
+                <element signature="e#3755#3825#0" expanded="true" />
+                <marker date="1548353672612" expanded="true" signature="1296:1340" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Files/App.properties">
+      <file leaf-file-name="PropWorker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ApplicationPack/PropWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="119">
+              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,20 +166,20 @@
         <option value="$PROJECT_DIR$/src/Prop/App.properties" />
         <option value="$PROJECT_DIR$/src/Files/slim-2.json" />
         <option value="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java" />
-        <option value="$PROJECT_DIR$/src/ApplicationPack/PropWorker.java" />
         <option value="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/InfoWindow.java" />
         <option value="$PROJECT_DIR$/src/ApplicationPack/TrayAPP.java" />
         <option value="$PROJECT_DIR$/src/ApplicationPack/FullInfoGUI/MainPanel.java" />
         <option value="$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/Files/App.properties" />
         <option value="$PROJECT_DIR$/src/weather/MainInfo.java" />
         <option value="$PROJECT_DIR$/src/weather/Wind.java" />
         <option value="$PROJECT_DIR$/src/weather/Clouds.java" />
         <option value="$PROJECT_DIR$/src/weather/Sys.java" />
         <option value="$PROJECT_DIR$/src/weather/WeatherContainer.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationPack/PropWorker.java" />
+        <option value="$PROJECT_DIR$/src/Files/App.properties" />
         <option value="$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java" />
+        <option value="$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java" />
       </list>
     </option>
   </component>
@@ -142,7 +192,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -153,8 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,6 +257,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -344,6 +394,8 @@
       <workItem from="1548069457261" duration="17928000" />
       <workItem from="1548161199849" duration="9480000" />
       <workItem from="1548246154453" duration="12916000" />
+      <workItem from="1548267747661" duration="1727000" />
+      <workItem from="1548350351799" duration="3240000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1545171631548</created>
@@ -363,7 +415,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78156000" />
+    <option name="totallyTimeSpent" value="83123000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,7 +427,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.025931928" />
@@ -383,15 +435,15 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.30794165" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32901135" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.30794165" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.30794165" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1603631" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16490166" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -424,13 +476,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/PropWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SystemTrayApplication.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -586,12 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="340" column="26" selection-start-line="340" selection-start-column="23" selection-end-line="340" selection-end-column="26" />
-          <folding>
-            <element signature="e#11598#11599#0" expanded="true" />
-            <element signature="e#11646#11647#0" expanded="true" />
-            <element signature="e#11832#11833#0" expanded="true" />
-            <element signature="e#11920#11921#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,53 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/PropWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#135#163#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#1481#1557#0" expanded="true" />
-            <element signature="e#1481#1557#0" expanded="true" />
-            <element signature="e#1558#1624#0" expanded="true" />
-            <element signature="e#1558#1624#0" expanded="true" />
-            <element signature="e#1782#1858#0" expanded="true" />
-            <element signature="e#1782#1858#0" expanded="true" />
-            <element signature="e#1859#1925#0" expanded="true" />
-            <element signature="e#1859#1925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/SettingWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -858,26 +851,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3293#3294#0" expanded="true" />
-            <element signature="e#3370#3371#0" expanded="true" />
-            <marker date="1548266571730" expanded="true" signature="1296:1340" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/PropWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="119">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1294#1320#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -886,6 +868,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WeatherAPIWorker/WeatherWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="101" column="38" lean-forward="true" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#977#1037#1" expanded="true" />
+            <element signature="e#990#1019#0" expanded="true" />
+            <element signature="e#990#1036#0" expanded="true" />
+            <element signature="e#1075#1121#0" expanded="true" />
+            <element signature="e#1075#1121#0" expanded="true" />
+            <element signature="e#1370#1397#0" expanded="true" />
+            <element signature="e#2231#2283#1" expanded="true" />
+            <element signature="e#2292#2363#1" expanded="true" />
+            <element signature="e#2310#2362#0" expanded="true" />
+            <element signature="e#2310#2330#0" expanded="true" />
+            <element signature="e#2310#2362#0" expanded="true" />
+            <element signature="e#2310#2362#0" expanded="true" />
+            <element signature="e#2335#2362#0" expanded="true" />
+            <element signature="e#2310#2362#0" expanded="true" />
+            <element signature="e#2392#2507#1" expanded="true" />
+            <element signature="e#2391#2486#0" expanded="true" />
+            <element signature="e#2391#2486#0" expanded="true" />
+            <element signature="e#2391#2486#0" expanded="true" />
+            <element signature="e#2391#2486#0" expanded="true" />
+            <element signature="e#2513#2556#1" expanded="true" />
+            <element signature="e#2536#2555#0" expanded="true" />
+            <element signature="e#2569#2598#1" expanded="true" />
+            <element signature="e#2611#2653#1" expanded="true" />
+            <element signature="e#2666#2751#1" expanded="true" />
+            <element signature="e#2727#2748#0" expanded="true" />
+            <element signature="e#2841#2860#0" expanded="true" />
+            <element signature="e#2841#2860#0" expanded="true" />
+            <element signature="e#2935#2952#0" expanded="true" />
+            <element signature="e#2965#3064#0" expanded="true" />
+            <element signature="e#2965#3064#0" expanded="true" />
+            <element signature="e#3167#3215#0" expanded="true" />
+            <element signature="e#3167#3215#0" expanded="true" />
+            <element signature="e#3342#3351#0" expanded="true" />
+            <element signature="e#3602#3634#0" expanded="true" />
+            <element signature="e#3755#3825#0" expanded="true" />
+            <element signature="e#3761#3787#0" expanded="true" />
+            <element signature="e#3755#3825#0" expanded="true" />
+            <element signature="e#3755#3825#0" expanded="true" />
+            <element signature="e#3793#3818#0" expanded="true" />
+            <element signature="e#3793#3831#0" expanded="true" />
+            <element signature="e#3755#3825#0" expanded="true" />
+            <marker date="1548353672612" expanded="true" signature="1296:1340" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/Settings/SettingPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApplicationPack/JsonISO2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -900,6 +954,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

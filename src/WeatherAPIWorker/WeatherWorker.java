@@ -83,7 +83,7 @@ public class WeatherWorker {
             return "";
         }catch (IOException e){
             e.printStackTrace();
-            JOptionPane.showMessageDialog(null,"Wrong value of city or country.");
+            JOptionPane.showMessageDialog(null,"Wrong value of city or country.\n"+e.toString());
             return "";
         }
     }

@@ -5,7 +5,7 @@ import java.util.Properties;
 
 public  class PropWorker {
 
-    private String fileName = "src\\Files\\App.properties";
+    private String fileName = "D:\\GitRep\\SystemTrayApplication\\src\\Files\\App.properties";
     private Properties properties;
 
     public String getTrayImage(){
